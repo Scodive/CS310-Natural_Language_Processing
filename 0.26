@@ -1,0 +1,13 @@
+Looking in indexes: https://mirrors.sustech.edu.cn/pypi/simple
+Requirement already satisfied: huggingface-hub in /opt/homebrew/lib/python3.11/site-packages (0.30.2)
+Requirement already satisfied: filelock in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (3.13.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (2024.2.0)
+Requirement already satisfied: packaging>=20.9 in /Users/sco/Library/Python/3.11/lib/python/site-packages (from huggingface-hub) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (6.0.1)
+Requirement already satisfied: requests in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (2.31.0)
+Requirement already satisfied: tqdm>=4.42.1 in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/homebrew/lib/python3.11/site-packages (from huggingface-hub) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/homebrew/lib/python3.11/site-packages (from requests->huggingface-hub) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/lib/python3.11/site-packages (from requests->huggingface-hub) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/homebrew/lib/python3.11/site-packages (from requests->huggingface-hub) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/homebrew/lib/python3.11/site-packages (from requests->huggingface-hub) (2025.1.31)
